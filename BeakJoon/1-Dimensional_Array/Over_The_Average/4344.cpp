@@ -46,7 +46,7 @@ int main(){
         average = (double)((double)count / (double)N) * 100.0;
 
         
-        cout << fixed << average << "%" << "\n"; //소수점 3자리 설정
+        cout << fixed << average << "%" << "\n"; //소수점 3자리 설정 --> 알아서 반올림
     }
     return 0;
 }
